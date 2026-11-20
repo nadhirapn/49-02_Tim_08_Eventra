@@ -1,0 +1,30 @@
+/* ========== UMUM ========== */
+body {
+    background-color: #f5f6fa;
+}
+
+main.container {
+    min-height: 80vh;
+}
+
+/* ========== NAVBAR ========== */
+.navbar-brand {
+    font-weight: 600;
+    letter-spacing: 0.3px;
+}
+
+/* ========== TABEL ========== */
+.table thead th {
+    background-color: #212529;
+    color: #fff;
+}
+
+/* ========== LOGIN & REGISTER ========== */
+.auth-wrapper {
+    max-width: 420px;
+    margin: 10vh auto 0;
+}
+
+.auth-wrapper.register {
+    margin-top: 8vh;
+}
