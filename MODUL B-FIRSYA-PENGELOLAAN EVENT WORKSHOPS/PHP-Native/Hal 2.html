@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detail &amp; Jadwal Sesi Pembicara</title>
+    <link rel="stylesheet" href="CSS%20Hal%202.css">
+</head>
+<body>
+
+    <!-- Tombol Kembali ke Halaman Pertama -->
+    <p>
+        <a href="Sistem%20Pengelolaan%20Event%20%26%20Workshop.html">
+            <button type="button">&larr; Kembali ke Halaman Utama</button>
+        </a>
+    </p>
+
+    <!-- Judul Modul Halaman Kedua -->
+    <h1>Detail &amp; Penjadwalan Sesi Pembicara</h1>
+    <p>Halaman ini digunakan untuk melihat detail narasumber dan mengelola jadwal sesi acara atau workshop.</p>
+
+    <hr>
+
+    <!-- Ringkasan Detail Pembicara -->
+    <h2>Ringkasan Profil Narasumber</h2>
+    <ul>
+        <li><strong>Nama Narasumber:</strong> Dr. Ahmad Fauzi</li>
+        <li><strong>Profil Keahlian:</strong> Teknologi (AI &amp; Cloud)</li>
+        <li><strong>Institusi:</strong> Universitas Telkom</li>
+        <li><strong>Portofolio:</strong> <a href="#" target="_blank">Lihat Portofolio Lengkap</a></li>
+    </ul>
+
+    <hr>
+
+    <!-- Form Tambah Jadwal Sesi -->
+    <h2>Tambah Jadwal Sesi</h2>
+    <form>
+        <p>
+            <label for="judul">Judul Sesi:</label><br>
+            <input type="text" id="judul" name="judul" placeholder="Pengantar Cloud Computing" required>
+        </p>
+        <p>
+            <label for="tanggal">Tanggal:</label><br>
+            <input type="date" id="tanggal" name="tanggal" required>
+        </p>
+        <p>
+            <label for="waktu">Waktu Mulai:</label><br>
+            <input type="time" id="waktu" name="waktu" required>
+        </p>
+        <p>
+            <label for="lokasi">Lokasi / Ruangan:</label><br>
+            <input type="text" id="lokasi" name="lokasi" placeholder="Aula Gedung A">
+        </p>
+        <p>
+            <button type="submit">Simpan Jadwal</button>
+        </p>
+    </form>
+
+    <hr>
+
+    <!-- Daftar Jadwal Sesi -->
+    <h2>Daftar Jadwal Sesi</h2>
+    <table border="1" cellpadding="8" cellspacing="0">
+        <thead>
+            <tr>
+                <th>No</th>
+                <th>Judul Sesi</th>
+                <th>Tanggal</th>
+                <th>Waktu</th>
+                <th>Lokasi</th>
+                <th>Aksi</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Pengantar Cloud Computing</td>
+                <td>2026-11-05</td>
+                <td>09:00</td>
+                <td>Aula Gedung A</td>
+                <td>
+                    <button type="button">Edit</button>
+                    <button type="button">Hapus</button>
+                </td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Workshop AI untuk Pemula</td>
+                <td>2026-11-06</td>
+                <td>13:00</td>
+                <td>Lab Komputer 2</td>
+                <td>
+                    <button type="button">Edit</button>
+                    <button type="button">Hapus</button>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+</body>
+</html>
